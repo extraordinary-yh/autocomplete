@@ -7,4 +7,4 @@ Autocomplete Engine rely on a trie tree and a max heap. The autocompelete functi
 ## Time Complexity
 The insert() and lookup() functions' time complexity is O(L), where L is the average length or number of characters of the word. Because L is bounded by constant, lookup() and insert() function's time complexity can be reduced to O(1).
 
-The autocompelte()'s time comlexity should be O(N), where N is the number of nodes in the prefix's sub-tree and correspond to the sum of number of letters of all prefix-contained-words excluding the number of letters of the prefix. And this is because traversal of the subtree would go to N nodes and pushing all of them to the maxheap takes N steps. Therefore T = 2*O(N) = O(N)
+The autocompelte()'s time comlexity should be O(N), where N is the number of nodes in the prefix's sub-tree and correspond to the sum of number of letters of all prefix-contained-words excluding the number of letters of the prefix. And this is because traversal of the subtree would go to N nodes and pushing all of them to the maxheap takes N steps. Therefore T = 2*O(N) = O(N).
